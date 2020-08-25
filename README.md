@@ -1,2 +1,2 @@
-# die-class
-lab1 for CS2401
+# Git Lab #2
+## First team member: Ryan Conaway
