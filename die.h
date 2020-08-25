@@ -5,7 +5,7 @@
 
 using namespace std;
 
-clas Die{
+class Die{
 
 public:
     /**
@@ -13,7 +13,7 @@ public:
     * Seed the random number generator, set the number of sides     
     * to 6, and assign a random value (1-numSides) to faceValue     
     */
-   ​Die​();
+  	Die();
 
     /**
      * Die constructor:
@@ -55,5 +55,5 @@ public:
 private:
     int faceValue; ///the face value of the die
     int numSides; ///number of faces of the die
-}
+};
 #endif
