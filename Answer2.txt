@@ -1,3 +1,28 @@
-Auto-merging README.md
-CONFLICT (content): Merge conflict in README.md
-Automatic merge failed; fix conflicts and then commit the result.
+Second Acc:
+
+    Auto-merging README.md
+    CONFLICT (content): Merge conflict in README.md
+    Automatic merge failed; fix conflicts and then commit the result.
+
+First Acc:
+    mrc1104@DESKTOP-C7O2M40:~/Documents/CS2401/Lab/Lab1/die-class$ git pull
+    remote: Enumerating objects: 10, done.
+    remote: Counting objects: 100% (10/10), done.
+    remote: Compressing objects: 100% (4/4), done.
+    remote: Total 6 (delta 2), reused 6 (delta 2), pack-reused 0
+    Unpacking objects: 100% (6/6), 655 bytes | 36.00 KiB/s, done.
+    From https://github.com/Mrc1104/die-class
+       42efaf9..9f2f39a  master     -> origin/master
+    Auto-merging README.md
+    CONFLICT (content): Merge conflict in README.md       <-------------------
+    Automatic merge failed; fix conflicts and then commit the result.
+    mrc1104@DESKTOP-C7O2M40:~/Documents/CS2401/Lab/Lab1/die-class$ git push
+    Username for 'https://github.com': Mrc1104
+    Password for 'https://Mrc1104@github.com':
+    To https://github.com/Mrc1104/die-class.git
+     ! [rejected]        master -> master (non-fast-forward)
+    error: failed to push some refs to 'https://github.com/Mrc1104/die-class.git' <------------------------
+    hint: Updates were rejected because the tip of your current branch is behind
+    hint: its remote counterpart. Integrate the remote changes (e.g.
+    hint: 'git pull ...') before pushing again.
+    hint: See the 'Note about fast-forwards' in 'git push --help' for detai
