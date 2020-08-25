@@ -1,2 +1,2 @@
-# die-class
-lab1 for CS2401
+#The Second Git Lab
+## Second team member: RyanConaway2
