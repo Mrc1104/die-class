@@ -30,19 +30,19 @@ void Die::setNumSides(int newNumSides){
 	}
 
 //getters
-int​​ Die::getFaceValue​(){​
-	return​ faceValue;
+int Die::getFaceValue(){
+	return faceValue;
 	}
-int ​​Die::getNumSides​(){
-	​return​ numSides;
+int Die::getNumSides(){
+	return numSides;
 	}
 //helper functions
-int​ Die::roll​(){ 
-	   faceValue = ​rand​() % numSides + ​1​;
-	   ​return​ faceValue;
+int Die::roll(){ 
+	   faceValue = rand() % numSides + 1;
+	  return faceValue;
 	   }
 	   
-ostream& ​operator​ <<(ostream &out, ​const​ Die &d){
-	    out << d.faceValue;​
-		return​ out
+ostream& operator <<(ostream &out, const Die &d){
+	    out << d.faceValue;
+		return out;
 	}
